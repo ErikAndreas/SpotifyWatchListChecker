@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_gravity="fill_vertical|center_horizontal"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnRun"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Run now" />
+
+    <Button
+        android:id="@+id/btnDbxUnlink"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Unlink" />
+    
+        <Button
+            android:id="@+id/btnDbxConnect"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Connect" />
+
+    <Button
+        android:id="@+id/btnShowLatest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Show latest findings" />
+
+    <Switch
+        android:id="@+id/scheduleOnOff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Scheduling" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2x/day" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Every hour" />
+    </RadioGroup>
+
+</LinearLayout>
